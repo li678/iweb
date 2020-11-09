@@ -17,3 +17,15 @@ a {
 a:hover {
 	color: #f60;
 }
+ol,
+ul {
+	margin: 0;			/*清除浏览器的默认样式*/
+	padding: 0;			
+}
+li {
+	/* 修改列表项前的提示符号 */
+	/* list-style: disc;	圆饼 */
+	/* list-style: decimal;		数字 */
+	/* list-style: circle;		圆圈 */
+	list-style: none;	/*清楚列表前的提示符号*/
+}
